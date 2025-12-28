@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breach Protocol - Cyberpunk 2077 Minigame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BREACH PROTOCOL</h1>
+            <div class="timer-container">
+                <span class="timer-label">BREACH TIME REMAINING</span>
+                <span class="timer" id="timer">--</span>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="left-panel">
+                <div class="matrix-label">CODE MATRIX</div>
+                <div class="code-matrix" id="codeMatrix"></div>
+            </div>
+
+            <div class="right-panel">
+                <div class="buffer-section">
+                    <div class="buffer-label">BUFFER</div>
+                    <div class="buffer" id="buffer"></div>
+                </div>
+
+                <div class="sequences-section">
+                    <div class="sequences-label">SEQUENCES REQUIRED TO UPLOAD</div>
+                    <div class="sequences" id="sequences"></div>
+                </div>
+
+                <div class="controls">
+                    <button class="btn btn-primary" id="newGameBtn">NEW BREACH</button>
+                    <button class="btn btn-secondary" id="exitBtn">EXIT</button>
+                </div>
+
+                <div class="status" id="status"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
