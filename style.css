@@ -269,3 +269,16 @@ body {
         max-width: 100%;
     }
 }
+
+.footer-disclaimer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 255, 255, 0.3);
+    text-align: center;
+    font-size: 0.8em;
+    color: rgba(0, 255, 255, 0.6);
+}
+
+.footer-disclaimer p {
+    margin: 5px 0;
+}
