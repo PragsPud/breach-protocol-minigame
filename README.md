@@ -52,10 +52,14 @@ Complete one or more sequences by selecting hexadecimal codes from the Code Matr
 - **Timer Mechanic**: 30-second countdown adds pressure and excitement
 - **Sequence Overlap**: Smart detection allows multiple daemons to share codes
 
+## 🎮 Live Demo
+
+Play the game [here](https://pragspud.github.io/breach-protocol-minigame/)
+
 ## 🛠️ Installation & Setup
 
 ### Play Online
-Simply visit the GitHub Pages URL (no installation required)
+Simply visit the [GitHub Pages URL](https://pragspud.github.io/breach-protocol-minigame/) (no installation required)
 
 ## 📜 License
 
